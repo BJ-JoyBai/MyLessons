@@ -1,0 +1,15 @@
+﻿<Window x:Class="MyLessonsWpf003.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyLessonsWpf003"
+        mc:Ignorable="d"
+        Title="日志查看器" Height="350" Width="525">
+    <DockPanel>
+        <ToolBar DockPanel.Dock="Top">
+            <Button Content="加载日志" Click="Button_Click"/>
+            <Label Content="筛选日志："/>
+
+    </DockPanel>
+</Window>

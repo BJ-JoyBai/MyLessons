@@ -1,0 +1,10 @@
+﻿<Application x:Class="MyLessonsWpf002.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:MyLessonsWpf002"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <!--所有界面元素都能访问-->
+        <local:MatchesToTextConverter x:Key="MatchesToText"/>
+    </Application.Resources>
+</Application>
